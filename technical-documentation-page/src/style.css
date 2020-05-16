@@ -1,0 +1,30 @@
+body {
+    color: black;
+}
+#global-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    position: relative;
+}
+#container-bookmark {
+    border-right: 1px solid black;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+#navbar {
+    list-style: none;
+}
+.bookmark {
+    display: block;
+    padding: 1em 0em;
+    border-top: 1px solid black;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+#Content {
+    margin-left: 3em;
+}
+
